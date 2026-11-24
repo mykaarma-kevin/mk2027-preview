@@ -1,0 +1,13 @@
+/* Imported content keeps its own typography and resets. Navigation is unchanged. */
+.home-reference { font-family: 'Suisse Intl', 'Inter', sans-serif; }
+.home-reference .rd-trusted-group figure { width: 200px; }
+.home-reference .rd-trusted-group img { width: 100%; height: 100px; object-fit: contain; }
+@media (max-width: 767px) {
+  .home-reference .rd-trusted-group figure { width: 140px; max-width: 140px; }
+  .home-reference .rd-trusted-group img { height: 70px; }
+}
+.skip-link { position: absolute; left: 1rem; top: -100px; z-index: 100000; }
+.skip-link:focus { top: 1rem; padding: 1rem; background: white; color: black; }
+@media (prefers-reduced-motion: reduce) {
+  .home-reference *, .home-reference *::before, .home-reference *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
