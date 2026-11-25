@@ -1,8 +1,8 @@
 {
-  "env": "preview",
-  "source": "mk2027",
   "commit": "f0b4dc416632487f31d0f29c2c6ac3a7aae15c58",
+  "siteUrl": "https://mykaarma-kevin.github.io/mk2027-preview/",
+  "env": "preview",
+  "builtAt": "2026-11-25T21:19:16.2714587Z",
   "dirty": true,
-  "builtAt": "2026-11-24T00:19:02.208Z",
-  "siteUrl": "https://mykaarma-kevin.github.io"
+  "source": "mk2027"
 }
